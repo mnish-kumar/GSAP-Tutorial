@@ -32,3 +32,19 @@ This project explores animating SVG paths to create an interactive "elastic stri
 - **Mouse Interaction:** Calculating the control point of the curve based on the mouse's `x` and `y` coordinates during `mousemove`.
 - **Attribute Plugin:** Using GSAP's `attr: {}` property to animate DOM attributes that aren't CSS properties.
 - **Elastic Easing:** Using `ease: "elastic.out(1, 0.2)"` to create a realistic guitar-string vibration effect when the mouse leaves the area.
+
+  ### 3. GSAP ScrollTrigger Demo
+
+This project demonstrates a simple scroll-linked animation using the **GSAP (GreenSock Animation Platform)** library and its **ScrollTrigger** plugin.
+
+## Project Overview
+
+The project consists of three full-screen sections. The middle section features a large text element ("MANISH") that animates horizontally as the user scrolls down the page. The section is "pinned" during the scroll interaction to create a smooth, immersive effect.
+
+## Key Features
+
+- **GSAP ScrollTrigger**: Orchestrates the animation based on the scroll position.
+- **Pinning**: Keeps the active section (`.box2`) fixed in the viewport while the animation plays.
+- **Scrubbing**: The animation plays back and forth smoothly in sync with the scrollbar (scrub value: 0.55).
+- **Horizontal Scroll Effect**: The text moves horizontally (`translateX`) to create a dynamic visual.
+
